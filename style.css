@@ -1,0 +1,214 @@
+/* ----------Fonts------------------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
+/* ----------Variables-------------- */
+
+:root {
+    --main-color: #935430;
+    --first-color: #efefef;
+    --second-color: #23303d;
+    --third-color: #90a3a7;
+    --fourth-color: #395159;
+    --fifth-color: #cba688;
+}
+
+/* -----------Global Setting-------------- */
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+/* -----------Body----------------- */
+
+body {
+    background-color: var(--first-color);
+}
+
+h1,
+h2 {
+    font-weight: 600;
+    color: var(--main-color)
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    color: var(--main-color)
+}
+
+a {
+    text-decoration: none;
+}
+
+.content-area {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    text-transform: none;
+}
+
+.youtube-video {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background: var(--second-color);
+    position: fixed;
+}
+
+.logo {
+    width: 40%;
+    float: left;
+    text-align: left;
+    line-height: 100px;
+}
+
+.logo a {
+    font-family: 'Pacifico', cursive;
+    color: var(--first-color);
+    margin: 10px;
+    padding: 15px 16px;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: none;
+}
+
+nav {
+    float: right;
+    line-height: 100px;
+}
+
+nav a {
+    margin: 10px;
+    padding: 40px 16px;
+    font-size: 1rem;
+    letter-spacing: 1.3px;
+    color: var(--first-color);
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #23303d;
+    filter: brightness(85%);
+}
+
+.banner-area {
+    background-image: url(pictures/banner3_hd.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100%;
+}
+
+.content-area h1 {
+    text-align: center;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30px;
+    letter-spacing: 3px;
+}
+
+.content-area p {
+    text-align: center;
+    padding: 2% 0;
+    line-height: 25px;
+    text-align: justify;
+    text-transform: none;
+}
+
+ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+/* -------------------footer---------------------------- */
+.footer {
+    background: var(--second-color);
+    width: 100%;
+    height: 160px;
+    float: left;
+    color: var(--first-color);
+}
+
+.footer_container {
+    width: 768px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 17px 0;
+    padding: 0px;
+}
+
+.footer ul li {
+    float: left;
+    font-size: 12px;
+    margin-bottom: 8px;
+    clear: left;
+    color: var(--third-color);
+}
+
+.footer a:hover {
+    color: #efefef;
+}
+
+
+.social-media a {
+    margin: 8px;
+    color: #f2f2f2;
+    font-size: 1.2rem;
+    border: solid 0.1rem #f2f2f2;
+    padding: 7px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.social-media a:hover {
+    color: var(--first-color)
+}
+
+.social-media a:hover>i {
+    transform: scale(1.3) rotate(360deg);
+}
+
+.social-media a i {
+    transition: 1.4s all;
+}
+
+
+
+.box {
+    width: auto;
+    height: 125px;
+    float: left;
+}
+
+.box a {
+    color: var(--third-color);
+}
+
+.box b {
+    font-size: 14px;
+    color: var(--first-color);
+}
